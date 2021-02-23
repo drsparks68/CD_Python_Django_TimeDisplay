@@ -1,3 +1,16 @@
-p {
-    color : red;
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.twinkle{
+    animation:twinkleText 1.2s infinite;
+}
+@keyframes twinkleText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
 }
